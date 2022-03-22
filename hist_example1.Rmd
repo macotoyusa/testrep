@@ -1,0 +1,17 @@
+---
+title: "Untitled"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##Histogram 
+
+# sample of size 100
+
+```{r}
+Y<- rnorm(100)
+hist(Y)
+```
